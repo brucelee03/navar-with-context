@@ -1,0 +1,35 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #ffffff;
+}
+.home-img {
+  width: 110px;
+}
+.home-heading {
+  color: #171f46;
+  font-weight: bold;
+  font-size: 34px;
+}
+@media screen and (max-width: 577px) {
+  .home-img {
+    width: 100px;
+  }
+  .home-heading {
+    font-size: 26px;
+  }
+}
+.dark-home-background {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.dark-theme {
+  color: #ffffff;
+}
